@@ -1,44 +1,60 @@
+import React from "react";
+import { MDBIcon } from "mdb-react-ui-kit";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import { Col } from "react-bootstrap";
+import {
+  FaUniversity,
+  FaHandsHelping,
+  FaLaptopCode,
+  FaDatabase,
+  FaShieldAlt,
+  FaWifi,
+} from "react-icons/fa";
+
 function WhatWeDo() {
-    return(
-        <div class="service-section container">
-        <div class="row">
-          <div class="col-md-2">
-            <h1><span>What</span> we do</h1>
-          </div>
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-2">
-                <i class="glyphicon glyphicon-briefcase"></i>
-                <h4>Foreign Education</h4>
-              </div>
-              <div class="col-2">
-                <i class="glyphicon glyphicon-stats"></i>
-                <h4>Project Consultancy</h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-2">
-                <i class="glyphicon glyphicon-cog"></i>
-                <h4>Software Development</h4>
-              </div>
-              <div class="col-2">
-                <i class="glyphicon glyphicon-tasks"></i>
-                <h4>Big Data Solutions</h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-2">
-                <i class="glyphicon glyphicon-ok-circle"></i>
-                <h4>Cyber Security</h4>
-              </div>
-              <div class="col-2">
-                <i class="glyphicon glyphicon-signal"></i>
-                <h4>Network Solution</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
+  return (
+    <Container className="pt-5 pb-5">
+      <Row>
+        <Col xs lg="2">
+          <h1>
+            <span>What</span> we do
+          </h1>
+        </Col>
+        <Col xs lg="10">
+          <Row>
+            <Col>
+              <FaUniversity />
+              <h4>Foreign Education</h4>
+            </Col>
+            <Col>
+              <FaHandsHelping />
+              <h4>Project Consultancy</h4>
+            </Col>
+          </Row>
+          <Row>
+            <Col class="col-2">
+              <FaLaptopCode />
+              <h4>Software Development</h4>
+            </Col>
+            <Col>
+              <FaDatabase />
+              <h4>Big Data Solutions</h4>
+            </Col>
+          </Row>
+          <Row>
+            <Col class="col-2">
+              <FaShieldAlt />
+              <h4>Cyber Security</h4>
+            </Col>
+            <Col>
+              <FaWifi />
+              <h4>Network Solution</h4>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+  );
 }
 export default WhatWeDo;

@@ -1,23 +1,48 @@
-import Navbar from './navbar'
-import Button from 'react-bootstrap/Button';
-function Header({title}) {
-    return (
-        <div class="header">
-            <Navbar/>
-            <div class="main container">
-                <div class="row">
-                <div class="col-md-12">
-                    <h1>Intent Foreign Education and Project Consultancy</h1>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-                    qui repellendus vero itaque quidem magnam, maxime repudiandae
-                    </p>
-                    <button><a href="#">Learn More</a></button>
-                </div>
-                </div>
+import Navbar from "./navbar";
+import Button from "react-bootstrap/Button";
+import background from "../../img/intent_homepage.png";
+import React from "react";
+
+function Header({ title }) {
+  return (
+    <header>
+      <Navbar />
+      <div style={{ paddingLeft: 0 }}>
+        <div
+          className="text-center bg-image"
+          style={{
+            backgroundImage: `url(${background})`,
+            height: 400,
+          }}
+        >
+          <div
+            className="mask"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+          >
+            <div className="d-flex justify-content-center align-items-center h-100">
+              <div className="text-white">
+                <h1 className="mb-3">
+                  Intent Foreign Education and Project Consultancy
+                </h1>
+                <p className="mb-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, qui repellendus vero itaque quidem magnam, maxime
+                  repudiandae
+                </p>
+                <a
+                  className="btn btn-outline-light btn-lg"
+                  href="#!"
+                  role="button"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
+          </div>
         </div>
-    )
+      </div>
+    </header>
+  );
 }
 
 export default Header;
