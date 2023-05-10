@@ -12,12 +12,12 @@ function Header({ title }) {
           className="text-center bg-image"
           style={{
             backgroundImage: `url(${background})`,
-            height: 400,
+            backgroundSize: "cover",
           }}
         >
           <div
             className="mask"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", padding: "15% 5%" }}
           >
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
