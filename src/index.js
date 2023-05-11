@@ -21,9 +21,6 @@ root.render(
     <WhatWeDo/>
     <Sponsors/>
     <Team/>
-    <Form/>
-    <SiteMap/>
-    <Contact/>
     <Footer/>
   </React.StrictMode>
 );

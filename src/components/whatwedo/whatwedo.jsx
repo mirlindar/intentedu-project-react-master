@@ -33,7 +33,7 @@ function WhatWeDo() {
             </Col>
           </Row>
           <Row>
-            <Col class="col-2">
+            <Col>
               <FaLaptopCode />
               <h4>Software Development</h4>
             </Col>
@@ -43,11 +43,11 @@ function WhatWeDo() {
             </Col>
           </Row>
           <Row>
-            <Col class="col-2">
+            <Col>
               <FaShieldAlt />
               <h4>Cyber Security</h4>
             </Col>
-            <Col>
+            <Col className="">
               <FaWifi />
               <h4>Network Solution</h4>
             </Col>
