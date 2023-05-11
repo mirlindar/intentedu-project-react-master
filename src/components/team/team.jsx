@@ -1,4 +1,7 @@
 import { Container } from "react-bootstrap";
+import intentLogo from "../../img/intentedu.png";
+import enrollingLogo from "../../img/enrolling.png";
+import zetaLogo from "../../img/zeta.png";
 
 function Team() {
   return (
@@ -42,7 +45,7 @@ function Team() {
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img src="./images/intentedu.png" alt="Intent" class="responsive" />
+          <img src="intentLogo" alt="Intent" class="responsive" />
         </div>
         <div class="col-md-8">
           <h2>Team 3</h2>

@@ -6,7 +6,7 @@ import Contact from "./contact";
 function Footer() {
   return (
     <>
-      <div className="bg-primary">
+      <div className="bg-primary p-2">
         <Container>
           <Row>
             <Col>
@@ -23,7 +23,7 @@ function Footer() {
       </div>
       <div className="bg-secondary">
         <Container>
-          <p className="text-center m-0">
+          <p className="text-center m-0 p-2">
             &copy; 2023 by Intent. All rights reserved.
           </p>
         </Container>

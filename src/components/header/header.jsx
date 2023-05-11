@@ -17,14 +17,17 @@ function Header({ title }) {
         >
           <div
             className="mask"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", padding: "15% 5%" }}
+            style={{
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+              padding: "7% 7% 12% 7%",
+            }}
           >
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
-                <h1 className="mb-3">
+                <h1 className="mb-3" style={{ fontSize: "calc(2em + 2.5vw)" }}>
                   Intent Foreign Education and Project Consultancy
                 </h1>
-                <p className="mb-3">
+                <p className="mb-3" style={{ fontSize: "calc(0.5em + 0.5vw)" }}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Commodi, qui repellendus vero itaque quidem magnam, maxime
                   repudiandae
