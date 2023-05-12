@@ -6,7 +6,7 @@ import Contact from "./contact";
 function Footer() {
   return (
     <>
-      <div className="bg-primary p-2">
+      <div className="p-2 pt-5" style={{ backgroundColor: "#0077b8" }}>
         <Container>
           <Row>
             <Col>
@@ -21,7 +21,7 @@ function Footer() {
           </Row>
         </Container>
       </div>
-      <div className="bg-secondary">
+      <div style={{ backgroundColor: "#006298" }}>
         <Container>
           <p className="text-center m-0 p-2">
             &copy; 2023 by Intent. All rights reserved.

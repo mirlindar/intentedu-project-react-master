@@ -1,61 +1,53 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Image, Col } from "react-bootstrap";
 import intentLogo from "../../img/intentedu.png";
 import enrollingLogo from "../../img/enrolling.png";
 import zetaLogo from "../../img/zeta.png";
 
 function Team() {
+  function renderTeamMember(picture, name, description) {
+    return (
+      <Row>
+        <Col>
+          <div>
+            <Image src={picture} alt="Enrolling" height={100} />
+          </div>
+        </Col>
+        <Col>
+          <div>
+            <h3 className="d-flex align-items-start justify-content-start">
+              {name}
+            </h3>
+            <p className="d-flex align-items-start justify-content-start">
+              {description}
+            </p>
+          </div>
+        </Col>
+      </Row>
+    );
+  }
   return (
-    <Container>
-      <h1>Our team</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <img src={zetaLogo} alt="Zeta" />
-        </div>
-        <div class="col-md-8">
-          <h2>Team 1</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-            officia obcaecati qui nulla assumenda numquam impedit, voluptas
-            dolor
-          </p>
-          <button>
-            <a href="#">Read More</a>
-          </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src={enrollingLogo} alt="Enrolling" />
-        </div>
-        <div class="col-md-8">
-          <h2>Team 2</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-            officia obcaecati qui nulla assumenda numquam impedit, voluptas
-            dolor
-          </p>
-          <button>
-            <a href="#">Read More</a>
-          </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src={intentLogo} alt="Intent" />
-        </div>
-        <div class="col-md-8">
-          <h2>Team 3</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-            officia obcaecati qui nulla assumenda numquam impedit, voluptas
-            dolor
-          </p>
-          <button>
-            <a href="#">Read More</a>
-          </button>
-        </div>
-      </div>
-    </Container>
+    <div className="pt-5 pb-5">
+      <Container>
+        <Row>
+          <h2>Our team</h2>
+        </Row>
+        {renderTeamMember(
+          zetaLogo,
+          "Member 1",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero officia obcaecati qui nulla assumenda numquam impedit, voluptas dolor"
+        )}
+        {renderTeamMember(
+          zetaLogo,
+          "Member 2",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero officia obcaecati qui nulla assumenda numquam impedit, voluptas dolor"
+        )}
+        {renderTeamMember(
+          zetaLogo,
+          "Member 3",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero officia obcaecati qui nulla assumenda numquam impedit, voluptas dolor"
+        )}
+      </Container>
+    </div>
   );
 }
 
