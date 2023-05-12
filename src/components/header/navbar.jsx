@@ -7,7 +7,7 @@ import "./navbar.css";
 function NavigationBar() {
   function renderNavElement(name) {
     return (
-      <Nav.Link class="nav-item fs-2" href="#" aria-current="page">
+      <Nav.Link class="nav-item fs-2" to="/" aria-current="page">
         {name}
       </Nav.Link>
     );

@@ -9,7 +9,7 @@ function Team() {
       <h1>Our team</h1>
       <div class="row">
         <div class="col-md-4">
-          <img src="./images/zeta.png" alt="Zeta" class="responsive" />
+          <img src={zetaLogo} alt="Zeta" />
         </div>
         <div class="col-md-8">
           <h2>Team 1</h2>
@@ -25,11 +25,7 @@ function Team() {
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img
-            src="./images/enrolling.png"
-            alt="Enrolling"
-            class="responsive"
-          />
+          <img src={enrollingLogo} alt="Enrolling" />
         </div>
         <div class="col-md-8">
           <h2>Team 2</h2>
@@ -45,7 +41,7 @@ function Team() {
       </div>
       <div class="row">
         <div class="col-md-4">
-          <img src="intentLogo" alt="Intent" class="responsive" />
+          <img src={intentLogo} alt="Intent" />
         </div>
         <div class="col-md-8">
           <h2>Team 3</h2>

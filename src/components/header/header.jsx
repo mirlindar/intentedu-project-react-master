@@ -19,7 +19,7 @@ function Header({ title }) {
             className="mask"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
-              padding: "7% 7% 12% 7%",
+              padding: "7% 20% 12% 20%",
             }}
           >
             <div className="d-flex justify-content-center align-items-center h-100">

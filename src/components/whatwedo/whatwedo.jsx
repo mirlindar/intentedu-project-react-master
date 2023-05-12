@@ -13,45 +13,52 @@ import {
 } from "react-icons/fa";
 
 function WhatWeDo() {
+  function renderWhatWeDoElement(logo, name) {
+    return (
+      <Col className="square border border-5 rounded-3 m-1">
+        <div style={{ padding: "15% 5% 15% 5%", fontSize: "calc(1em + 1vw)" }}>
+          {logo}
+          <h4 style={{ padding: "3% 0% 0% 0%" }}>{name}</h4>
+        </div>
+      </Col>
+    );
+  }
   return (
     <Container className="pt-5 pb-5">
       <Row>
         <Col xs lg="2">
-          <h1>
-            <span>What</span> we do
-          </h1>
+          <h2
+            style={{
+              display: "flex",
+              alignItems: "center",
+              height: "100%",
+            }}
+          >
+            What we do
+          </h2>
         </Col>
-        <Col xs lg="10">
-          <Row>
-            <Col>
-              <FaUniversity />
-              <h4>Foreign Education</h4>
-            </Col>
-            <Col>
-              <FaHandsHelping />
-              <h4>Project Consultancy</h4>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <FaLaptopCode />
-              <h4>Software Development</h4>
-            </Col>
-            <Col>
-              <FaDatabase />
-              <h4>Big Data Solutions</h4>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <FaShieldAlt />
-              <h4>Cyber Security</h4>
-            </Col>
-            <Col className="">
-              <FaWifi />
-              <h4>Network Solution</h4>
-            </Col>
-          </Row>
+        <Col xs lg="10" className="text-center">
+          <Col md={{ span: 9, offset: 2 }}>
+            <Row>
+              {renderWhatWeDoElement(<FaUniversity />, "Foreign Education")}
+              {renderWhatWeDoElement(<FaHandsHelping />, "Project Consultancy")}
+            </Row>
+          </Col>
+          <Col md={{ span: 9, offset: 3 }}>
+            <Row>
+              {renderWhatWeDoElement(<FaLaptopCode />, "Software Development")}
+              {renderWhatWeDoElement(<FaDatabase />, "Big Data Solutions")}
+            </Row>
+          </Col>
+          <Col md={{ span: 9, offset: 2 }}>
+            <Row>
+              {renderWhatWeDoElement(
+                <FaShieldAlt />,
+                "Cyber Security Solutions"
+              )}
+              {renderWhatWeDoElement(<FaWifi />, "Network Solutions")}
+            </Row>
+          </Col>
         </Col>
       </Row>
     </Container>
