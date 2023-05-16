@@ -28,9 +28,10 @@ function Header({ title }) {
                   Intent Foreign Education and Project Consultancy
                 </h1>
                 <p className="mb-3" style={{ fontSize: "calc(0.5em + 0.5vw)" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, qui repellendus vero itaque quidem magnam, maxime
-                  repudiandae
+                  If the UK is your land of dreams, we would be very delighted
+                  to help you on developing your career or growing your business
+                  through our great dedication, great experience and list of
+                  services that we offer.
                 </p>
                 <a
                   className="btn btn-outline-light btn-lg"

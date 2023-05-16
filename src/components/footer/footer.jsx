@@ -21,7 +21,7 @@ function Footer() {
           </Row>
         </Container>
       </div>
-      <div style={{ backgroundColor: "#006298" }}>
+      <div style={{ backgroundColor: "#006298", color: "white" }}>
         <Container>
           <p className="text-center m-0 p-2">
             &copy; 2023 by Intent. All rights reserved.

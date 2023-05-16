@@ -9,7 +9,10 @@ function Sponsors() {
   function renderSponsor(logo, name, description) {
     return (
       <Col>
-        <div className="d-flex align-items-center justify-content-center">
+        <div
+          className="d-flex align-items-center justify-content-center"
+          style={{ marginBottom: "25px" }}
+        >
           <Image src={logo} alt="Enrolling" height={100} />
         </div>
         <div>
@@ -24,12 +27,21 @@ function Sponsors() {
     );
   }
   return (
-    <div style={{ backgroundColor: "#dadcde" }} className="pt-5 pb-5">
+    <div
+      style={{
+        backgroundColor: "#dadcde",
+        padding: "60px 0",
+        textAlign: "center",
+      }}
+      className="pt-5 pb-5"
+    >
       <Container>
         <Row>
           <Col>
-            <h2>Trusted by industry-leading organizations worldwide</h2>
-            <h4>Sponsors Description</h4>
+            <h2 style={{ marginBottom: "15px" }}>
+              Trusted by industry-leading organizations worldwide
+            </h2>
+            <h4 style={{ marginBottom: "25px" }}>Sponsors Description</h4>
           </Col>
         </Row>
         <Row>

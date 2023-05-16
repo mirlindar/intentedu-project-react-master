@@ -2,19 +2,26 @@ import { Container, Row, Image, Col } from "react-bootstrap";
 import intentLogo from "../../img/intentedu.png";
 import enrollingLogo from "../../img/enrolling.png";
 import zetaLogo from "../../img/zeta.png";
+import hasanmetin from "../../img/white.jpg";
+import mehmet from "../../img/Mehmet.jpeg";
+import mehmet3 from "../../img/Mehmet3.jpeg";
+import mehmet4 from "../../img/Mehmet4.jpeg";
 
 function Team() {
   function renderTeamMember(picture, name, description) {
     return (
-      <Row>
+      <Row style={{ marginBottom: "25px" }}>
         <Col>
           <div>
-            <Image src={picture} alt="Enrolling" height={100} />
+            <Image src={picture} alt="Enrolling" height={250} />
           </div>
         </Col>
         <Col>
           <div>
-            <h3 className="d-flex align-items-start justify-content-start">
+            <h3
+              className="d-flex align-items-start justify-content-start"
+              style={{ paddingTop: "25px" }}
+            >
               {name}
             </h3>
             <p className="d-flex align-items-start justify-content-start">
@@ -32,19 +39,24 @@ function Team() {
           <h2>Our team</h2>
         </Row>
         {renderTeamMember(
-          zetaLogo,
-          "Member 1",
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero officia obcaecati qui nulla assumenda numquam impedit, voluptas dolor"
+          hasanmetin,
+          "Hasan Metin",
+          "Expert on Project Management"
         )}
         {renderTeamMember(
-          zetaLogo,
-          "Member 2",
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero officia obcaecati qui nulla assumenda numquam impedit, voluptas dolor"
+          mehmet,
+          "Zafer Kahveci",
+          "Fintech Expert,working for more than 21 years in business life and voluntary activities"
         )}
         {renderTeamMember(
-          zetaLogo,
-          "Member 3",
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero officia obcaecati qui nulla assumenda numquam impedit, voluptas dolor"
+          mehmet3,
+          "Omer Sukru",
+          "System Engineer with 20 years of international experience"
+        )}
+        {renderTeamMember(
+          mehmet4,
+          "Serhat Canbaz",
+          "CFO with 20 years of International Business Experience"
         )}
       </Container>
     </div>
