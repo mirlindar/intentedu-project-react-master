@@ -4,6 +4,7 @@
 .nav-link{
     margin-right: 4px;
 }
-.active{
-    background: red;
+
+.navbar .current-page {
+    color:#006298;
 }

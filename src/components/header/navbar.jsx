@@ -3,11 +3,18 @@ import Image from "react-bootstrap/Image";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { useLocation } from "react-router-dom";
 import "./navbar.css";
+
 function NavigationBar() {
-  function renderNavElement(name, to) {
+  const location = useLocation();
+  function renderNavElement(name, to, isCurrentPage) {
     return (
-      <Nav.Link class="nav-item fs-2" href={`/${to}`} aria-current="page">
+      <Nav.Link
+        className={`nav-item fs-4 ${isCurrentPage ? "current-page" : ""}`}
+        href={`/${to}`}
+        aria-current="page"
+      >
         {name}
       </Nav.Link>
     );
@@ -21,11 +28,15 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            {renderNavElement("Home", "")}
-            {renderNavElement("About", "about")}
-            {renderNavElement("Services", "services")}
-            {renderNavElement("Pricing", "")}
-            {renderNavElement("Contact", "")}
+            {renderNavElement("Home", "", location.pathname === "/")}
+            {renderNavElement("About", "about", location.pathname === "/about")}
+            {renderNavElement(
+              "Services",
+              "services",
+              location.pathname === "/services"
+            )}
+            {renderNavElement("Pricing", "", location.pathname === "/pricing")}
+            {renderNavElement("Contact", "", location.pathname === "/contact")}
           </Nav>
         </Navbar.Collapse>
       </Container>
