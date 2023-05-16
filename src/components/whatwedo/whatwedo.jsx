@@ -11,11 +11,11 @@ import {
   FaShieldAlt,
   FaWifi,
 } from "react-icons/fa";
-
+import "./whatwedo.css";
 function WhatWeDo() {
   function renderWhatWeDoElement(logo, name) {
     return (
-      <Col className="square border border-5 rounded-3 m-1">
+      <Col className="m-1 whatwedo-element whatwedo-element-hover">
         <div style={{ padding: "15% 5% 15% 5%", fontSize: "calc(1em + 1vw)" }}>
           {logo}
           <h4 style={{ padding: "3% 0% 0% 0%" }}>{name}</h4>

@@ -5,37 +5,35 @@ import zetaLogo from "../../img/zeta.png";
 
 function ProjectHead() {
   return (
-    <header>
-      <div style={{ paddingLeft: 0 }}>
-        <div className="text-center bg-image">
-          <div
-            style={{
-              padding: "7% 20% 12% 20%",
-            }}
-          >
-            <div className="d-flex justify-content-center align-items-center h-100">
-              <div>
-                <h1 className="mb-3" style={{ fontSize: "calc(2em + 2.5vw)" }}>
-                  Project Consultancy
-                </h1>
-                <p className="mb-3" style={{ fontSize: "calc(0.5em + 0.5vw)" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, qui repellendus vero itaque quidem magnam, maxime
-                  repudiandae
-                </p>
-                <a
-                  className="btn btn-outline-dark btn-lg"
-                  href="#!"
-                  role="button"
-                >
-                  Learn More
-                </a>
-              </div>
-            </div>
+    <Container
+      style={{
+        padding: "5% 0% 5% 0%",
+      }}
+    >
+      <Row>
+        <Col xs lg="10">
+          <h2 className="mb-3" style={{ fontSize: "calc(2em + 2.5vw)" }}>
+            Project Consultancy
+          </h2>
+          <p className="mb-3" style={{ fontSize: "calc(0.5em + 0.5vw)" }}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            qui repellendus vero itaque quidem magnam, maxime repudiandae
+          </p>
+          <div>
+            <a className="btn btn-outline-dark btn-lg" href="#!" role="button">
+              Learn More
+            </a>
           </div>
-        </div>
-      </div>
-    </header>
+        </Col>
+        <Col
+          xs
+          lg="2"
+          className="d-flex justify-content-center align-items-center h-100 my-auto"
+        >
+          <Image src={intentLogo} height={80} alt="logo" />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

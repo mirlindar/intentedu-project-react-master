@@ -1,0 +1,10 @@
+.whatwedo-element{
+    border-style: solid;
+    border-color: #0077b8;
+    border-radius: 15px;
+}
+.whatwedo-element-hover:hover {
+    background-color: #0077b8;
+    color: white;
+    transition-duration: 0.3s;
+}

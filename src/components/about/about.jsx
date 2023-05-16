@@ -37,9 +37,11 @@ function About() {
             </div>
           </Col>
           <Col xs lg="10" className="text-center">
-            <h2>Intent Foreign Education and Project Consultancy </h2>
+            <h2 style={{ padding: "0% 15% 0% 15%" }}>
+              Intent Foreign Education and Project Consultancy{" "}
+            </h2>
             <h4>Intent Subtitle Description</h4>
-            <p>
+            <p style={{ padding: "0% 7% 0% 7%" }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
