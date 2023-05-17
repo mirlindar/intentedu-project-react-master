@@ -1,17 +1,16 @@
-import logo from "../../img/intentedu.png";
+import logo from "../../img/intent-1.png";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 function Contact(params) {
   return (
-    <div class="col-md-4">
+    <div class="col-md-6 mr-auto">
       <img src={logo} height={80} alt="logo" />
       <div style={{ color: "white" }}>
-        <FaPhone />
-        <p> +44 789 847 6951</p>
+      <p> <FaPhone /> +44 789 847 6951</p>
       </div>
       <div style={{ color: "white" }}>
-        <FaEnvelope />
-        <a href="mailto:hmetin@intentedu.com">hmetin@intentedu.com</a>
+       <p><FaEnvelope /> <a href="mailto:hmetin@intentedu.com">hmetin@intentedu.com</a> </p>
+        
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 function SiteMap(params) {
   return (
-    <div class="col-md-4" style={{ color: "white" }}>
+    <div class="mr-5 text-center" style={{ color: "white" }}>
       <h2>Site map</h2>
       <p>All our pages</p>
-      <ol>
+      <ul style={{listStyle:'none'}}>
         <li>
           <a href="#" style={{ color: "white" }}>
             Home
@@ -29,7 +29,7 @@ function SiteMap(params) {
             Contact
           </a>
         </li>
-      </ol>
+      </ul>
     </div>
   );
 }

@@ -19,9 +19,7 @@ function AboutMain() {
                   WE HELP YOU ACHIEVE YOUR GOALS
                 </h1>
                 <p className="mb-3" style={{ fontSize: "calc(0.5em + 0.5vw)" }}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, qui repellendus vero itaque quidem magnam, maxime
-                  repudiandae
+                We offer more than English courses in London, we want to help you improve your life through English. We will push you to expand your horizons, to find your focus, find your drive and find your voice.
                 </p>
                 <a
                   className="btn btn-outline-dark btn-lg"
