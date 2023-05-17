@@ -6,5 +6,11 @@
 }
 
 .navbar .current-page {
-    color:#006298;
+    color: #0077b8;
 }
+.navbar .navbar-item-hover:hover{
+    background-color: #0077b8;
+    color: white;
+}
+
+

@@ -35,7 +35,7 @@ function Header({ title }) {
                 </p>
                 <a
                   className="btn btn-outline-light btn-lg"
-                  href="#!"
+                  href="/about"
                   role="button"
                 >
                   Learn More

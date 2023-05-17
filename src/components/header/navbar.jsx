@@ -11,7 +11,9 @@ function NavigationBar() {
   function renderNavElement(name, to, isCurrentPage) {
     return (
       <Nav.Link
-        className={`nav-item fs-4 ${isCurrentPage ? "current-page" : ""}`}
+        className={`nav-item fs-5 navbar-item-hover ${
+          isCurrentPage ? "current-page" : ""
+        }`}
         href={`/${to}`}
         aria-current="page"
       >

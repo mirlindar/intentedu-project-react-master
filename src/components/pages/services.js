@@ -4,6 +4,10 @@ import Footer from '../footer/footer';
 import StudyHead from '../services/studyhead';
 import ProjectHead from '../services/projecthead';
 import About from '../services/about'
+import SoftwareDevelopment from '../services/softwaredevelopment';
+import CyberSecurity from '../services/cybersecurity';
+import BigDataSolutions from '../services/bigdatasolutions';
+import NetworkSolutions from '../services/networksolutions';
 function Services() {
   return (
     <>
@@ -11,6 +15,10 @@ function Services() {
     <About/>
     <StudyHead/>
     <ProjectHead/>
+    <SoftwareDevelopment/>
+    <CyberSecurity/>
+    <BigDataSolutions/>
+    <NetworkSolutions/>
     <Footer/>
     </>
   );
