@@ -11,7 +11,7 @@ import {
   FaShieldAlt,
   FaWifi,
 } from "react-icons/fa";
-import logo from "../../img/intentedu.png";
+import logo from "../../img/intent-1.png";
 
 function About() {
   return (
@@ -37,18 +37,23 @@ function About() {
             </div>
           </Col>
           <Col xs lg="10" className="text-center">
-            <h2 style={{ padding: "0% 15% 0% 15%" }}>
+            <h2 style={{ padding: "2% 8%" }}>
               Intent Foreign Education and Project Consultancy{" "}
             </h2>
-            <h4>Intent Subtitle Description</h4>
-            <p style={{ padding: "0% 7% 0% 7%" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.{" "}
+            <h4>Follow your path to university abroad</h4>
+            <p style={{ padding: "0% 7% 0% 7%", margin:"3%" }}>
+            
+International students can prepare or apply for a degree from a leading university in the USA, Canada, UK, Australia or New Zealand with Intent. No matter where you are in the world, we have a study option that’s right for you.{" "}
+Moreover, our expertise in project consultancy will help you gain a competitive advantage against similar companies from Turkey and Balkan region by having a presence in UK. 
             </p>
+            <a
+                  className="btn btn-outline-dark btn-lg"
+                  href="#!"
+                  role="button"
+                  style={{ margin: "3% 0" }}
+                >
+                  Read More
+                </a>
           </Col>
         </Row>
       </Container>

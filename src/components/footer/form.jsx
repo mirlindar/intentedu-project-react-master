@@ -1,7 +1,7 @@
 import Form from "react-bootstrap/Form";
 function FormContact() {
   return (
-    <Form class="col-md-4">
+    <Form class="mr-5">
       <h2>Contact Us!</h2>
       <Form action="#">
         <Form.Group className="mb-3" controlId="formBasicEmail">
