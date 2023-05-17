@@ -1,17 +1,5 @@
 import React from "react";
-import { MDBIcon } from "mdb-react-ui-kit";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import { Col, Image } from "react-bootstrap";
-import {
-  FaUniversity,
-  FaHandsHelping,
-  FaLaptopCode,
-  FaDatabase,
-  FaShieldAlt,
-  FaWifi,
-} from "react-icons/fa";
-import logo from "../../img/intentedu.png";
 
 function About() {
   return (

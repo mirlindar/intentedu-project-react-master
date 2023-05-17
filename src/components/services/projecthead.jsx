@@ -1,7 +1,5 @@
 import { Container, Row, Image, Col } from "react-bootstrap";
 import intentLogo from "../../img/intentedu.png";
-import enrollingLogo from "../../img/enrolling.png";
-import zetaLogo from "../../img/zeta.png";
 
 function ProjectHead() {
   return (
