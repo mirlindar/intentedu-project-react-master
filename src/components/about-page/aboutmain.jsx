@@ -1,7 +1,4 @@
 import background from "../../img/goal.jpg";
-import intentLogo from "../../img/intentedu.png";
-import enrollingLogo from "../../img/enrolling.png";
-import zetaLogo from "../../img/zeta.png";
 
 function AboutMain() {
   return (
