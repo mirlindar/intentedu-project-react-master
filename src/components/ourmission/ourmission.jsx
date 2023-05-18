@@ -23,15 +23,8 @@ function OurMission() {
     >
       <Container>
         <Row>
-<<<<<<< HEAD
-          <Col xs lg="4" style={{fontFamily:"monospace"}}>
-            <h1 style={{padding:"25px 0", fontSize:"3.5rem" }}>Our mission</h1>
-=======
           <Col xs lg="4">
             <h2 style={{ marginBottom: "15px" }}>Our mission</h2>
-            <h4 style={{ marginBottom: "25px" }}>
-              Intent Subtitle Description
-            </h4>
             <p>
               At Intent Foreign Education and Project Consultancy, we are
               dedicated to helping individuals and businesses achieve their
@@ -47,7 +40,6 @@ function OurMission() {
               Contact us today to learn more about how we can support you in
               achieving your goals in the UK.
             </p>
->>>>>>> 8af10e5e8ba12cf4b8cc60acc94e7bc45ec25f35
           </Col>
           <Col
             xs

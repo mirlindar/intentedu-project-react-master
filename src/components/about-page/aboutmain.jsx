@@ -1,4 +1,3 @@
-import { Container, Row, Image, Col } from "react-bootstrap";
 import background from "../../img/goal.jpg";
 import intentLogo from "../../img/intentedu.png";
 import enrollingLogo from "../../img/enrolling.png";
