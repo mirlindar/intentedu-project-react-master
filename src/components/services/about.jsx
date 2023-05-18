@@ -1,6 +1,6 @@
 import React from "react";
-import { MDBIcon } from "mdb-react-ui-kit";
 import Container from "react-bootstrap/Container";
+<<<<<<< HEAD
 import Row from "react-bootstrap/Row";
 import { Col, Image } from "react-bootstrap";
 import {
@@ -12,6 +12,8 @@ import {
   FaWifi,
 } from "react-icons/fa";
 import logo from "../../img/intent-1.png";
+=======
+>>>>>>> 8af10e5e8ba12cf4b8cc60acc94e7bc45ec25f35
 
 function About() {
   return (

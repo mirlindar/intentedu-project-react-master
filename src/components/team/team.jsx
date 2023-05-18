@@ -1,7 +1,4 @@
 import { Container, Row, Image, Col } from "react-bootstrap";
-import intentLogo from "../../img/intentedu.png";
-import enrollingLogo from "../../img/enrolling.png";
-import zetaLogo from "../../img/zeta.png";
 import hasanmetin from "../../img/white.jpg";
 import mehmet from "../../img/Mehmet.jpeg";
 import mehmet3 from "../../img/Mehmet3.jpeg";
