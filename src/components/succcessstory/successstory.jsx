@@ -4,20 +4,15 @@ import { Col } from "react-bootstrap";
 import intentLogo from "../../img/intentedu.png";
 import Image from "react-bootstrap/Image";
 function SuccessStory() {
-  function renderSponsor(logo, name, description) {
+  function renderSponsor(name, description) {
     return (
-      <Col>
-        <div
-          className="d-flex align-items-center justify-content-center"
-          style={{ marginBottom: "25px" }}
-        >
-          <Image src={logo} alt="Logo" height={100} />
-        </div>
+      <Col xs lg="6" style={{fontFamily:"monospace"}}>
+   
         <div>
-          <h4 className="d-flex align-items-center justify-content-center">
+          <h4 className="mb-5 d-flex align-items-center justify-content-center">
             {name}
           </h4>
-          <p className="d-flex align-items-center justify-content-center">
+          <p className="d-flex align-items-center justify-content-center" style={{ padding:" 0px 60px"}}>
             {description}
           </p>
         </div>
@@ -41,12 +36,12 @@ function SuccessStory() {
         </Row>
         <Row>
           {renderSponsor(
-            intentLogo,
-            "Person 1",
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione non facilis porro quasi libero excepturi. Aspernatur quibusdam, accusantium sapiente iste sint quis aliquid quos deserunt, ad tempore, molestias voluptatibus."
+           
+            "Aylin Anarat",
+            "Working with Mr. Metin is delightful. He has vast knowledge and experience in his business. He is quite professional and provides great insights and counseling. He has very strong interpersonal relationship and wide network. He was very helpful and managed all aspects of our project. We are looking forward to working with him again "
           )}
           {renderSponsor(
-            intentLogo,
+           
             "Company 1",
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione non facilis porro quasi libero excepturi. Aspernatur quibusdam, accusantium sapiente iste sint quis aliquid quos deserunt, ad tempore, molestias voluptatibus."
           )}

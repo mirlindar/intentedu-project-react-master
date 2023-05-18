@@ -15,17 +15,8 @@ function OurMission() {
     >
       <Container>
         <Row>
-          <Col xs lg="4">
-            <h2 style={{ marginBottom: "15px" }}>Our mission</h2>
-            <h4 style={{ marginBottom: "25px" }}>
-              Intent Subtitle Description
-            </h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur expedita nobis voluptatibus a non quo sapiente tempore
-              hic, excepturi fuga id facere atque quae architecto voluptatem
-              dolore velit. Sint, similique.
-            </p>
+          <Col xs lg="4" style={{fontFamily:"monospace"}}>
+            <h1 style={{padding:"25px 0", fontSize:"3.5rem" }}>Our mission</h1>
           </Col>
           <Col xs lg="8">
             At Intent Foreign Education and Project Consultancy, we are

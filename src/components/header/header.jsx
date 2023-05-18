@@ -24,10 +24,10 @@ function Header({ title }) {
           >
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
-                <h1 className="mb-3" style={{ fontSize: "calc(2em + 2.5vw)" }}>
+                <h1 className="mb-5" style={{ fontSize: "calc(2em + 2vw)" }}>
                   Intent Foreign Education and Project Consultancy
                 </h1>
-                <p className="mb-3" style={{ fontSize: "calc(0.5em + 0.5vw)" }}>
+                <p className="mb-5" style={{ fontSize: "calc(0.5em + 1vw)" }}>
                   If the UK is your land of dreams, we would be very delighted
                   to help you on developing your career or growing your business
                   through our great dedication, great experience and list of

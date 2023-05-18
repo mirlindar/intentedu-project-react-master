@@ -37,11 +37,11 @@ function About() {
             </div>
           </Col>
           <Col xs lg="10" className="text-center">
-            <h2 style={{ padding: "2% 8%" }}>
+            <h1 style={{ padding: "2% 8%", fontSize: "calc(1em + 1vw)" }}>
               Intent Foreign Education and Project Consultancy{" "}
-            </h2>
+            </h1>
             <h4>Follow your path to university abroad</h4>
-            <p style={{ padding: "0% 7% 0% 7%", margin:"3%" }}>
+            <p style={{ padding: "0% 7% 0% 7%", margin:"3%",fontSize: "calc(0.5em + 0.5vw)" }}>
             
 International students can prepare or apply for a degree from a leading university in the USA, Canada, UK, Australia or New Zealand with Intent. No matter where you are in the world, we have a study option that’s right for you.{" "}
 Moreover, our expertise in project consultancy will help you gain a competitive advantage against similar companies from Turkey and Balkan region by having a presence in UK. 

@@ -37,9 +37,12 @@ function WhatWeDo() {
               display: "flex",
               alignItems: "center",
               height: "100%",
+              fontSize: "5em",
+              color:"#000"
             }}
           >
-            What we do
+              
+            <p  style={{color: "#2978b5", padding:"20px"}}>What</p> we do
           </h2>
         </Col>
         <Col xs lg="10" className="text-center">

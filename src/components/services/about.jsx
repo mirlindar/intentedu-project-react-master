@@ -11,7 +11,7 @@ import {
   FaShieldAlt,
   FaWifi,
 } from "react-icons/fa";
-import logo from "../../img/intentedu.png";
+import logo from "../../img/intent-1.png";
 
 function About() {
   return (
@@ -28,14 +28,9 @@ function About() {
         >
           Intent Foreign Education and Project Consultancy{" "}
         </h1>
-        <h4>Intent Subtitle Description</h4>
+        
         <p style={{ padding: "0% 15% 0% 15%" }}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.{" "}
+        Our satisfaction guarantee is more than just a promise – it is a commitment to our clients that we take very seriously. We believe that our customers are the lifeblood of our business, and we are dedicated to providing them with exceptional products and services, along with world-class customer support.{" "}
         </p>
       </Container>
     </div>

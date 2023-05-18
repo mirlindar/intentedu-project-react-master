@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import { Col, Image } from "react-bootstrap";
-import logo from "../../img/intentedu.png";
+import story from "../../img/startup.jpg";
 
 function OriginStory() {
   return (
@@ -16,7 +16,7 @@ function OriginStory() {
     >
       <Container className="pt-5 pb-5">
         <Row>
-          <Col xs lg="2">
+          { <Col xs lg="5">
             <div
               style={{
                 display: "flex",
@@ -24,21 +24,23 @@ function OriginStory() {
                 height: "100%",
               }}
             >
-              <Image src={logo} alt="logo" height={100} />
+              <Image src={story} style={{ borderRadius:"6px", boxShadow:"rgba(0,0,0,0.4) -18px -18px"}} alt="story" height={450} width={500}/>
             </div>
-          </Col>
-          <Col xs lg="10" className="text-start">
-            <h2 style={{ padding: "0% 15% 0% 15%" }}>Origin Story </h2>
-            <h4 style={{ padding: "0% 15% 0% 15%" }}>
-              Intent Subtitle Description
-            </h4>
-            <p style={{ padding: "0% 15% 0% 15%" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.{" "}
+          </Col> }
+          <Col xs lg="7" className="text-start" style={{fontFamily:"monospace"}}>
+            <h2 style={{ padding: "0% 10% 3% 10%" }}>Origin Story </h2>
+          
+            <p style={{ padding: "0% 10% 0% 10%" }}>
+            Welcome to our company, where we specialize in providing high-quality project consultancy and foreign education services!
+
+At our company, we understand that every project is unique, and that's why we offer tailored solutions to meet the specific needs and requirements of each of our clients. Our team of experienced consultants has a wealth of knowledge and expertise in project management, and we are committed to helping our clients achieve their project goals, no matter how complex or challenging the project may be.
+
+In addition to project consultancy, we also offer foreign education services to individuals who are looking to enhance their skills and advance their careers. Our team of education experts works closely with our clients to identify the best educational opportunities that align with their career goals and aspirations. 
+
+At our company, we take pride in our commitment to excellence, and we are dedicated to providing our clients with the highest level of service and support. Whether you need project consultancy or foreign education services, you can count on us to provide you with the expert guidance and support you need to succeed.<br/>
+
+<span style={{ fontWeight: "600" }}>What we do: </span>  At our company, we offer a wide range of services to help our clients achieve their goals. Whether you're looking to pursue higher education abroad, implement a complex project, or develop innovative software solutions, we have the expertise and experience to help you succeed. Whatever your needs may be, we are committed to providing you with the highest level of service and support to help you achieve your goals
+.{" "}
             </p>
           </Col>
         </Row>
